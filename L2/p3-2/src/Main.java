@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         String s = "I am a first year student now";
         int[] f = {0, 0, 0, 0, 0};
+        // int[] f = new int[5];
         for(int i = 0; i < s.length(); i++) {
             switch(Character.toLowerCase(s.charAt(i))) {
                 case 'a': f[0]++; break;
